@@ -16,11 +16,15 @@
             edge = edgeLength;
             InitializeVertices();
         }
+        
+        public Tetrahedron(Tetrahedron other)
+        {
+            edge = other.edge;
+            vertices = other.vertices.ToArray();
+        }
 
         private void InitializeVertices()
         {
-            // Initialize vertices based on the edge length
-            // For simplicity, assuming a regular tetrahedron centered at origin
             double sqrt2 = Math.Sqrt(2);
             vertices[0] = (0, 0, 0);
             vertices[1] = (edge, 0, 0);

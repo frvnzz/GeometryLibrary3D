@@ -2,14 +2,14 @@
 
 Course: C# Development SS2025 (4 ECTS, 3 SWS)
 
-Student ID:
+Student ID: cc231014
 
-BCC Group:
+BCC Group: A
 
-Name:
+Name: Franz-Aurel Huber
 
 ## Methodology: 
-(explain your logic to solve the problem)
+The Class Diagram was created with [CSharp to PlantUML](https://github.com/pierre3/PlantUmlClassDiagramGenerator) and exported using [PlantUML](https://github.com/qjebbs/vscode-plantuml)
 
 ## Additional Features
 (explain your extra implementations that are not stated in the requirements, if any)
@@ -18,7 +18,13 @@ Name:
 (the challenges you faced and how you solved it)
 
 ## Work with: 
-(List down the name of your colleagues if you work with them)
+/
 
 ## Reference: 
-(any reference material used for project)
+### Websites:
+[Program to calculate area and volume of a Tetrahedron](https://www.geeksforgeeks.org/calculate-area-tetrahedron/)
+[IComparable Interface](https://learn.microsoft.com/en-us/dotnet/api/system.icomparable?view=net-9.0)
+[PlantUML Documentation](https://plantuml.com/en/guide)
+
+### Videos:
+[Compare or Sort any Object (using IComparable or IEquatable) .Net](https://www.youtube.com/watch?v=Sb8Vr5UVGBw)

@@ -32,7 +32,7 @@ class Program
                     DisplayCompositeShape(composite);
                     break;
                 case "-All":
-                    DisplayAllShapes(composite);
+                    DisplayAllShapes(composite, tetra1, cuboid1);
                     break;
                 default:
                     Console.WriteLine("Invalid argument. Use -Cuboid, -Tetrahedron, -Cylinder, -Composite, or -All.");
@@ -109,7 +109,7 @@ class Program
         }
     }
 
-    private static void DisplayAllShapes(CompositeShape composite)
+    private static void DisplayAllShapes(CompositeShape composite, Shape shape1, Shape shape2)
     {
         DisplayCompositeShape(composite);
         Console.WriteLine("All shapes in the composite shape:");
@@ -117,5 +117,8 @@ class Program
         {
             DisplayShape(shape);
         }
+
+        var combinedShape = shape1 + shape2;
+        Console.WriteLine($"Combined Shape Area: {combinedShape.SurfaceArea()}, Volume: {combinedShape.Volume()}");
     }
 }

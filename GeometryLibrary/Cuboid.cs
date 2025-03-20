@@ -22,6 +22,14 @@
             InitializeVertices();
         }
 
+        public Cuboid(Cuboid other)
+        {
+            length = other.length;
+            width = other.width;
+            height = other.height;
+            vertices = other.vertices.ToArray();
+        }
+
         private void InitializeVertices()
         {
             vertices[0] = (0, 0, 0);

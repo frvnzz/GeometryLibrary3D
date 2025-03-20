@@ -12,12 +12,12 @@
 ## Roadmap 
 (what have been implemented and what are the planed features.)
 
-## Contributing 
-(encourage people to work on your project)
+## Licence
 
-## License 
-(your project license)
+Distributed under the Unlicense License. See `/docs/LICENSE` for more information.
 
 ## Contact
+
+Franz-Aurel Huber – [cc231014@fhstp.ac.at](mailto:cc231014@fhstp.ac.at)
 
 ## Acknowledgments

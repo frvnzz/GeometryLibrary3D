@@ -20,6 +20,14 @@
             InitializeVertices();
         }
 
+        public Cylinder(Cylinder other)
+        {
+            radius = other.radius;
+            height = other.height;
+            bottomBase = other.bottomBase;
+            topBase = other.topBase;
+        }
+
         private void InitializeVertices()
         {
             bottomBase = (0, 0, 0);
