@@ -4,7 +4,7 @@
     {
         public abstract double SurfaceArea();
         public abstract double Volume();
-        
+
         public int CompareTo(Shape? other)
         {
             if (other == null) return 1;

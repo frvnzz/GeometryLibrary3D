@@ -16,7 +16,7 @@
             edge = edgeLength;
             InitializeVertices();
         }
-        
+
         public Tetrahedron(Tetrahedron other)
         {
             edge = other.edge;
