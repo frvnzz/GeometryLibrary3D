@@ -1,32 +1,83 @@
-# Prerequisites
-*.d
+# Build results
+bin/
+obj/
+out/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Rider projects
+.idea/
 
-# Precompiled Headers
-*.gch
-*.pch
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
+# Visual Studio Code
+.vscode/
+
+# NuGet packages
+*.nupkg
+packages/
+**/project.lock.json
+# Uncomment if using the new package reference format
+# **/packages.lock.json
+
+# .NET Core
+project.lock.json
+project.assets.json
 *.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
 *.exe
-*.out
-*.app
+*.pdb
+*.mdb
+
+# Entity Framework
+Migrations/
+
+# ASP.NET specific
+appsettings.json
+appsettings.Development.json
+
+# Resharper
+*.DotSettings.user
+
+# Logs
+*.log
+logs/
+
+# Local databases
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# Temporary files
+*.tmp
+*.cache
+*.bak
+
+# User-specific files
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+desktop.ini
+
+# JetBrains Rider / Resharper settings
+*.DotSettings
+*.DotSettings.user
+
+# IIS Express
+.iisexpress/
+
+# Coverage and test results
+coverage/
+*.coverage
+TestResults/
+
+# Dependencies
+node_modules/
+bower_components/
+
+# Generated files
+Generated/
