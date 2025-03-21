@@ -13,9 +13,9 @@ Before running the program, ensure that you have the following installed:
 ### Installation
 
 Clone the repository or download the source code from [here](https://github.com/frvnzz/GeometryLibrary3D/archive/refs/heads/main.zip):
-   ```bash
-   git clone https://github.com/frvnzz/GeometryLibrary3D.git
-   cd GeometryLibrary3D
+```bash
+git clone https://github.com/frvnzz/GeometryLibrary3D.git
+cd GeometryLibrary3D
 ```
 
 ### Usage
@@ -23,7 +23,7 @@ Clone the repository or download the source code from [here](https://github.com/
 To run the program, use the following command:
 
 ```bash
-   dotnet run
+dotnet run
 ```
 
 This will display the usage information. You can provide specific arguments to specify the displayed information about different shapes:
@@ -37,7 +37,7 @@ This will display the usage information. You can provide specific arguments to s
 For example:
 
 ```bash
-   dotnet run -All
+dotnet run -All
 ```
 
 This command will display information about all shapes in the composite shape, including their surface area, volume, and centroid.
