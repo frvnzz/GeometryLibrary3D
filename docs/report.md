@@ -25,6 +25,9 @@ The Class Diagram was created with [CSharp to PlantUML](https://github.com/pierr
 [Program to calculate area and volume of a Tetrahedron](https://www.geeksforgeeks.org/calculate-area-tetrahedron/)
 [IComparable Interface](https://learn.microsoft.com/en-us/dotnet/api/system.icomparable?view=net-9.0)
 [PlantUML Documentation](https://plantuml.com/en/guide)
+[ConsoleColor Enum](https://learn.microsoft.com/en-us/dotnet/api/system.consolecolor?view=net-9.0)
+
 
 ### Videos:
 [Compare or Sort any Object (using IComparable or IEquatable) .Net](https://www.youtube.com/watch?v=Sb8Vr5UVGBw)
+[Shape Area Calculator - C# Beginner Project](https://www.youtube.com/watch?v=vxJ4TIQrjt8)
